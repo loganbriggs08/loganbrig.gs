@@ -1,6 +1,8 @@
+import Footer from "@/app/components/footer";
+
 export default function Home() {
 	return (
-		<div className="">
+		<main>
             <button className="btn btn-primary">
                 Hello World
             </button>
@@ -8,6 +10,8 @@ export default function Home() {
             <button className="btn btn-secondary">
                 Bye World
             </button>
-		</div>
+
+            <Footer />
+		</main>
 	);
 }
