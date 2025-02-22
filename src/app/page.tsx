@@ -1,5 +1,6 @@
 import Footer from "@/app/components/footer";
 import Card from "@/app/components/card";
+import Accordion from "@/app/components/accordion";
 // import Clouds from "@/app/components/clouds";
 
 export default function Home() {
@@ -18,20 +19,39 @@ export default function Home() {
                     </div>
 
 
-                    <div className="mt-12 pb-20">
+                    <div className="mt-12 pb-20 flex flex-row">
                         <button className="btn btn-primary">
-                            View My Work
+                            Learn more
+
+                            <svg className="w-5 h-5 ml-2 mt-auto mb-auto" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 7L17 17M17 17V7M17 17H7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
                         </button>
 
                         <button className="btn btn-secondary ml-3">
-                            Contact Me
+                            View my work
                         </button>
                     </div>
 
                 </div>
             </div>
-
-            {/*<Clouds type={"both_heavy"} />*/}
+            
+            <div className="pt-20 mb-20 small_content md:large_content">
+                <Accordion
+                    accordions={
+                        [
+                            {
+                                title: "abc",
+                                description: "cba",
+                            },
+                            {
+                                title: "abc",
+                                description: "cba",
+                            }
+                        ]
+                    }
+                />
+            </div>
 
             <div className="pt-20 mb-20 small_content md:large_content">
                 <div className="grid grid-cols-1 gap-10 md:grid-cols-2">

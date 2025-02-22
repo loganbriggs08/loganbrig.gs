@@ -52,17 +52,26 @@ body {
 
 /* Styles just for primary buttons */
 .btn-primary {
+  display: flex;
+  flex-direction: row;
   color: var(--white);
   font-weight: 500;
+  text-decoration: none;
   border-bottom: solid 5px var(--dark-blue);
   background-color: var(--mid-blue);
+}
+
+/* Button hover styles for primary buttons */
+.btn-primary:hover {
+  opacity: 0.925;
 }
 
 /* Styles just for secondary buttons */
 .btn-secondary {
   color: var(--dark-blue);
   font-weight: 500;
-  outline: solid 3px var(--dark-blue);
+  text-decoration: none;
+  border: solid 3px var(--dark-blue);
   background-color: var(--dark-blue-light);
 }
 

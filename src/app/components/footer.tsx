@@ -5,7 +5,7 @@ export default function Footer() {
     return (
         <footer className="w-full">
             <div className="small_content w-full md:large_content">
-                <div className="absolute z-10 bottom-0">
+                <div className="absolute z-10">
                     <Spotify
                         playing={true}
                         current_song={
