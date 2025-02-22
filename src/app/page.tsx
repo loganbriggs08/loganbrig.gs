@@ -4,6 +4,10 @@ export default function Home() {
             <button className="btn btn-primary">
                 Hello World
             </button>
+
+            <button className="btn btn-secondary">
+                Bye World
+            </button>
 		</div>
 	);
 }
