@@ -4,7 +4,7 @@ import Spotify from "@/app/components/spotify";
 export default function Footer() {
     return (
         <footer className="absolute bottom-0 w-full">
-            <div className="content w-full">
+            <div className="small_content w-full md:large_content">
                 <div className="absolute z-10 bottom-10">
                     <Spotify
                         playing={true}
@@ -19,7 +19,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="relative z-0">
+            <div className="relative z-0 overflow-hidden">
                 <Clouds
                     type={"top_heavy"}
                 />

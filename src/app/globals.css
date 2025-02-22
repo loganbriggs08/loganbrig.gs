@@ -22,11 +22,18 @@
 
 body {
   color: var(--off-white);
-  background: var(--space-blue);
+  background: var(--sky-blue);
   font-family: "Montserrat", sans-serif;
 }
 
-.content {
+/* On screen content styles */
+.large_content {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.small_content {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -53,7 +60,7 @@ body {
 /* Styles just for secondary buttons */
 .btn-secondary {
   color: var(--dark-blue);
-  border: solid 3px var(--dark-blue);
+  outline: solid 3px var(--dark-blue);
   background-color: var(--dark-blue-light);
 }
 
