@@ -26,6 +26,12 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.content {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Button styles all buttons need */
 .btn {
   border-radius: 10px;

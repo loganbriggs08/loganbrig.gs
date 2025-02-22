@@ -4,9 +4,26 @@ import Spotify from "@/app/components/spotify";
 export default function Footer() {
     return (
         <footer className="absolute bottom-0 w-full">
-            <Spotify playing={false} />
+            <div className="content w-full">
+                <div className="absolute z-10 bottom-10">
+                    <Spotify
+                        playing={true}
+                        current_song={
+                            {
+                                title: "Godspeed",
+                                artist: "Frank Ocean",
+                                url: "https://open.spotify.com/track/34xTFwjPQ1dC6uJmleno7x?si=dc63d97bef204df8",
+                            }
+                        }
+                    />
+                </div>
+            </div>
 
-            <Clouds type={"top_heavy"} />
+            <div className="relative z-0">
+                <Clouds
+                    type={"top_heavy"}
+                />
+            </div>
         </footer>
     );
 }
