@@ -53,6 +53,7 @@ body {
 /* Styles just for primary buttons */
 .btn-primary {
   color: var(--white);
+  font-weight: 500;
   border-bottom: solid 5px var(--dark-blue);
   background-color: var(--mid-blue);
 }
@@ -60,6 +61,7 @@ body {
 /* Styles just for secondary buttons */
 .btn-secondary {
   color: var(--dark-blue);
+  font-weight: 500;
   outline: solid 3px var(--dark-blue);
   background-color: var(--dark-blue-light);
 }

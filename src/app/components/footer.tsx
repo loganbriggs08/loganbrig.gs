@@ -3,9 +3,9 @@ import Spotify from "@/app/components/spotify";
 
 export default function Footer() {
     return (
-        <footer className="absolute bottom-0 w-full">
+        <footer className="w-full">
             <div className="small_content w-full md:large_content">
-                <div className="absolute z-10 bottom-10">
+                <div className="absolute z-10 bottom-0">
                     <Spotify
                         playing={true}
                         current_song={
