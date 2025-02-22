@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --white: #FAFAFA;
+  --off-white: #F7F7F7;
+
+  --sky-blue: #87CEEB;
+  --mid-blue: #578FCA;
+  --dark-blue: #3674B5;
+  --space-blue: #0B192C;
+}
+
+body {
+  color: var(--off-white);
+  background: var(--space-blue);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-primary {
+  color: var(--white);
+  border-bottom: solid 5px var(--dark-blue);
+  background-color: var(--mid-blue);
+}
+
+.btn-secondary {
+
+}
