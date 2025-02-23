@@ -1,13 +1,16 @@
 import Footer from "@/app/components/footer";
 import Card from "@/app/components/card";
 import Accordion from "@/app/components/accordion";
-// import Clouds from "@/app/components/clouds";
+import Clouds from "@/app/components/clouds";
+
+import red_plane from "../../public/images/red_plane.png";
+import Image from "next/image";
 
 export default function Home() {
 	return (
 		<main>
             <div className="bg-[var(--space-blue)]">
-                <div className="pt-56 small_content md:large_content">
+                <div className="pt-56 content">
                     <div>
                         <h1 className="text-5xl font-semibold">
                             Hi, I&#39;m <a className="underline text-[var(--dark-blue)]">Logan Briggs</a>!
@@ -35,8 +38,22 @@ export default function Home() {
 
                 </div>
             </div>
+
+            <div className="overflow-hidden">
+                <div className="relative">
+                    <Clouds type={"both_heavy"} />
+                </div>
+
+                {/*<div className="absolute bottom-0">*/}
+                {/*    <Image*/}
+                {/*        src={red_plane}*/}
+                {/*        alt={"Red plane"}*/}
+                {/*        className="w-fit h-64 mt-30"*/}
+                {/*    />*/}
+                {/*</div>*/}
+            </div>
             
-            <div className="pt-20 mb-20 small_content md:large_content">
+            <div className="pt-20 mb-20 content">
                 <Accordion
                     accordions={
                         [
@@ -53,7 +70,7 @@ export default function Home() {
                 />
             </div>
 
-            <div className="pt-20 mb-20 small_content md:large_content">
+            <div className="pt-20 mb-20 content">
                 <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
                     <Card
                         title={"Card Title"}

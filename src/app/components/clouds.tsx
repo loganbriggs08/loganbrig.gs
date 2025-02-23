@@ -5,6 +5,8 @@ export default function Clouds(props: CloudProps) {
         case "both_heavy":
             return (
                 <svg className="w-full h-fit" viewBox="0 0 1921 785" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="1920" height="315" fill="#0B192C"/>
+                    <rect y="390" width="1920" height="395" fill="#87CEEB"/>
                     <ellipse cx="64.4142" cy="460.466" rx="64.4142" ry="44.0317" fill="#FAFAFA" fill-opacity="0.8"/>
                     <ellipse cx="41.7331" cy="488.361" rx="41.7331" ry="17.5205" fill="#FAFAFA" fill-opacity="0.8"/>
                     <ellipse cx="179.18" cy="509.339" rx="123.385" ry="78.6117" fill="#FAFAFA" fill-opacity="0.8"/>
@@ -48,13 +50,13 @@ export default function Clouds(props: CloudProps) {
                     <ellipse cx="1594.68" cy="276.639" rx="98.209" ry="112.5" transform="rotate(-180 1594.68 276.639)" fill="#FAFAFA" fill-opacity="0.8"/>
                     <ellipse cx="1449.29" cy="197.797" rx="107.508" ry="116.188" transform="rotate(-180 1449.29 197.797)" fill="#FAFAFA" fill-opacity="0.8"/>
                     <ellipse cx="1287.12" cy="175.435" rx="110.457" ry="134.401" transform="rotate(-180 1287.12 175.435)" fill="#FAFAFA" fill-opacity="0.8"/>
-                    <ellipse cx="1094.34" cy="207.018" rx="137.22" ry="136.936" transform="rotate(-180 1094.34 207.018)" fill="#FAFAFA" fill-opacity="0.8"/>
+                    <ellipse cx="1094.33" cy="207.018" rx="137.22" ry="136.936" transform="rotate(-180 1094.33 207.018)" fill="#FAFAFA" fill-opacity="0.8"/>
                     <ellipse cx="983.425" cy="278.484" rx="129.282" ry="98.2069" transform="rotate(-180 983.425 278.484)" fill="#FAFAFA" fill-opacity="0.8"/>
                     <ellipse cx="854.143" cy="297.387" rx="129.282" ry="65.0102" transform="rotate(-180 854.143 297.387)" fill="#FAFAFA" fill-opacity="0.8"/>
                     <ellipse cx="775.213" cy="239.754" rx="85.7344" ry="70.543" transform="rotate(-180 775.213 239.754)" fill="#FAFAFA" fill-opacity="0.8"/>
                     <ellipse cx="649.56" cy="208.632" rx="79.8373" ry="82.3002" transform="rotate(-180 649.56 208.632)" fill="#FAFAFA" fill-opacity="0.8"/>
                     <ellipse cx="649.56" cy="208.632" rx="79.8373" ry="82.3002" transform="rotate(-180 649.56 208.632)" fill="#FAFAFA" fill-opacity="0.8"/>
-                    <ellipse cx="488.07" cy="187.654" rx="127.921" ry="148.463" transform="rotate(-180 488.07 187.654)" fill="#FAFAFA" fill-opacity="0.8"/>
+                    <ellipse cx="488.071" cy="187.654" rx="127.921" ry="148.463" transform="rotate(-180 488.071 187.654)" fill="#FAFAFA" fill-opacity="0.8"/>
                     <ellipse cx="284.848" cy="152.152" rx="152.417" ry="152.152" transform="rotate(-180 284.848 152.152)" fill="#FAFAFA" fill-opacity="0.8"/>
                     <ellipse cx="104.53" cy="67.6025" rx="104.53" ry="67.6025" transform="matrix(-0.458273 -0.888811 0.882598 -0.470129 126.959 337.961)" fill="#FAFAFA" fill-opacity="0.8"/>
                     <rect x="1665.67" y="391.906" width="1603.55" height="123.104" transform="rotate(-180 1665.67 391.906)" fill="#FAFAFA" fill-opacity="0.8"/>

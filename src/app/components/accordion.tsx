@@ -52,7 +52,6 @@ export default function Accordion(props: AccordionProps) {
 
                             </button>
                         </div>
-
                     </button>
                 )
             })}

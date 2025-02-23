@@ -27,16 +27,16 @@ body {
 }
 
 /* On screen content styles */
-.large_content {
+.content {
   width: 85%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.small_content {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
+@media (max-width: 768px) {
+  .content {
+    width: 90%;
+  }
 }
 
 /* Button styles all buttons need */
@@ -78,5 +78,10 @@ body {
 /* Button hover styles for secondary buttons */
 .btn-secondary:hover {
   color: var(--white);
+  background-color: var(--dark-blue);
+}
+
+input {
+  padding: 10px;
   background-color: var(--dark-blue);
 }
